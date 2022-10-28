@@ -20,8 +20,11 @@ def sparen():
   spaar = 50
   b.saldo = b.saldo - spaar
   s.saldo = s.saldo + spaar
-sparen()
+  print("er wordt 50 euro gespaard en bijgeschreven op de spaar rekening", "nieuw saldo ", b.saldo, "spaar saldo", s.saldo, '\n')
+  
+sparen()  
 
-print("er wordt 50 euro gespaard en bijgeschreven op de spaar rekening", "nieuw saldo ", b.saldo, "spaar saldo", s.saldo)
-  
-  
+i = 1
+while i < 12:
+  sparen()
+  i += 1
